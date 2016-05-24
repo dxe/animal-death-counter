@@ -1,0 +1,87 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  max-width: 900px;
+  padding: 20px;
+  margin: 0 auto;
+  color: #111;
+}
+
+h1, h2 {
+  font-family: 'Viga', sans-serif;
+  letter-spacing: 2px;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: #c80e0e;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #ad2a2a;
+}
+
+a.button {
+  font-family: 'Viga', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  background-color: #c80e0e;
+  color: white;
+  padding: 6px 15px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 4px solid #c80e0e;
+  transition: all 0.3s;
+}
+
+a.button:hover {
+  background-color: transparent;
+  color: #c80e0e;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 0;
+}
+
+header .subheadline {
+  margin-top: 0;
+}
+
+.statistics {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px 0;
+  margin-top: -10px;
+  margin-left: -10px;
+}
+
+.statistics .animal {
+  flex-basis: 250px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.animal h2 {
+  margin-top: 0;
+}
+
+.counter {
+  font-size: 2rem;
+}
+
+footer {
+  text-align: center;
+}
