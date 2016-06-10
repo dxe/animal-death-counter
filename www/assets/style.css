@@ -60,6 +60,7 @@ header .subheadline {
 .statistics {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   padding: 40px 0;
   margin-top: -10px;
   margin-left: -10px;
